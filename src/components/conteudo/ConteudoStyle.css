@@ -1,0 +1,50 @@
+.container-perfis{
+    margin: 50px 20px 50px 20px;
+    background-color: rgb(44, 196, 226);
+    border: ridge purple 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.perfis{
+    width: 200px;
+    height: auto;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.perfis:hover{
+    color: springgreen;
+    background-color: black;
+    transition: 0.5s;
+}
+.perfis img{
+    border-radius: 5px;
+    border: groove springgreen 2px;
+}
+
+.title{
+    margin: 50px;
+    padding: 10px;
+    background-color: purple;
+    border: ridge rgb(44, 196, 226) 5px;
+    box-shadow: 0 0 30px rgb(44, 196, 226), 0 0 30px rgb(44, 196, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    color: springgreen;
+}
+.title button{
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: springgreen;
+}
+.title button:hover{
+    color: springgreen;
+    background-color: black;
+}
